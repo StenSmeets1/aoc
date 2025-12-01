@@ -24,6 +24,7 @@ func main() {
 		if len(line) == 0 {
 			continue
 		}
+		
 		direction := line[0]
 		distance, err := strconv.Atoi(line[1:])
 		if err != nil {
